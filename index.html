@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="SkySyntax is a technology team building modern websites, software, digital experiences, and secure solutions." name="description"/>
+<meta content="#0a0e1a" name="theme-color"/>
+<title>SkySyntax — Tech Development, Design &amp; Security</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div aria-hidden="true" class="cursor-dot"></div>
+<div aria-hidden="true" class="cursor-ring"></div>
+<!-- NAVIGATION -->
+<nav aria-label="Main navigation" id="navbar">
+<div class="container nav-inner">
+<a aria-label="SkySyntax Home" class="nav-logo" href="#hero">
+<img alt="" class="nav-logo-svg" src="assets/skysyntax-logo.svg"/>
+<span class="nav-wordmark">SkySyntax</span>
+</a>
+<ul class="nav-links" role="list">
+<li><a href="#hero">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#members">Team</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<button aria-expanded="false" aria-label="Toggle menu" class="hamburger">
+<span></span><span></span><span></span>
+</button>
+</div>
+</nav>
+<div aria-label="Navigation menu" aria-modal="true" class="mobile-menu" role="dialog">
+<a href="#hero">Home</a>
+<a href="#about">About</a>
+<a href="#members">Team</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
+<main>
+<!-- HERO SECTION -->
+<section aria-label="Hero" id="hero">
+<div aria-hidden="true" class="hero-bg-grid"></div>
+<div class="container hero-content">
+<div aria-hidden="true" class="hero-logo-wrap"><img alt="SkySyntax logo" class="hero-logo-svg" src="assets/skysyntax-logo.svg"/></div>
+<div aria-hidden="true" class="hero-badge">
+<span class="hero-badge-dot"></span>
+      Open to Projects &amp; Collaborations
+    </div>
+<h1 class="hero-title"><span class="sky-text">SkySyntax</span></h1>
+<!-- EDIT: Slogan cycles via script.js > texts array -->
+<p aria-label="Ideas Take Flight in Code." class="hero-slogan"></p>
+<div class="hero-buttons">
+<a class="btn btn-primary" href="#members">
+<svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        Meet the Team
+      </a>
+<a class="btn btn-outline" href="#services"><svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><rect height="7" width="7" x="3" y="3"></rect><rect height="7" width="7" x="14" y="3"></rect><rect height="7" width="7" x="14" y="14"></rect><rect height="7" width="7" x="3" y="14"></rect></svg> Explore Services</a>
+</div>
+</div>
+<a aria-label="Scroll to About" class="hero-scroll" href="#about">
+<span>Scroll</span>
+<span aria-hidden="true" class="hero-scroll-arrow"></span>
+</a>
+</section>
+<!-- ABOUT SECTION -->
+<section aria-label="About SkySyntax" id="about">
+<div class="container">
+<div class="about-grid">
+<div class="about-code-block reveal-left">
+<div class="code-header">
+<span class="code-dot"></span><span class="code-dot"></span><span class="code-dot"></span>
+<span class="code-filename">team.config.js</span>
+</div>
+<div aria-hidden="true" class="code-body" role="presentation">
+<span class="code-line"><span class="code-cm">// SkySyntax Team Configuration</span></span>
+<span class="code-line"><span class="code-kw">const</span> <span class="code-obj">team</span> = {</span>
+<span class="code-line code-indent"><span class="code-str">name</span>: <span class="code-str">"SkySyntax"</span>,</span>
+<span class="code-line code-indent"><span class="code-str">focus</span>: <span class="code-str">"Tech Development"</span>,</span>
+<span class="code-line code-indent"><span class="code-str">members</span>: [</span>
+<span class="code-line code-indent2"><span class="code-str">"Mariyam"</span>, <span class="code-str">"Hamdha"</span>, <span class="code-str">"Nadini"</span></span>
+<span class="code-line code-indent">],</span>
+<span class="code-line code-indent"><span class="code-str">services</span>: [<span class="code-str">"Web"</span>, <span class="code-str">"Software"</span>, <span class="code-str">"Security"</span>],</span>
+<span class="code-line code-indent"><span class="code-fn">mission</span>: () =&gt; {</span>
+<span class="code-line code-indent2"><span class="code-kw">return</span> <span class="code-str">"Design. Develop. Secure."</span>;</span>
+<span class="code-line code-indent">}</span>
+<span class="code-line">};</span>
+<span class="code-line"> </span>
+<span class="code-line"><span class="code-fn">console</span>.<span class="code-fn">log</span>(<span class="code-obj">team</span>.<span class="code-fn">mission</span>());</span>
+<span class="code-line"><span class="code-cm">// → "Design. Develop. Secure."</span></span>
+</div>
+</div>
+<div class="about-text-col reveal-right">
+<span class="section-label">Who We Are</span>
+<h2 class="section-title">We Build Things <span>Worth Flying For</span></h2>
+<!-- EDIT: Update team description paragraph -->
+<p class="about-intro">SkySyntax is a technology-focused team combining software engineering, cybersecurity, and digital design to turn ideas into clean, practical, and engaging digital products.</p>
+<!-- EDIT: Update second paragraph with your values or background -->
+<p class="about-intro">We focus on modern web development, software solutions, UI/UX thinking, cloud-ready systems, and security-minded development — creating experiences that look polished and are built with purpose.</p>
+<div class="about-stats">
+<!-- EDIT: Update data-target values to your real numbers -->
+<div class="stat-card reveal delay-1">
+<div class="stat-number" data-target="3">0</div>
+<div class="stat-label">Team Members</div>
+</div>
+
+
+<div class="stat-card reveal delay-4">
+<div class="stat-number" data-suffix="%" data-target="100">0%</div>
+<div class="stat-label">Pure Passion</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TEAM MEMBERS -->
+<section aria-label="Team Members" id="members">
+<div class="container">
+<header class="section-header reveal">
+<span class="section-label">The Crew</span>
+<h2 class="section-title">Meet the <span>Minds Behind</span> the Magic</h2>
+<p class="section-subtitle">Three minds combining software engineering and cybersecurity to build thoughtful technology together.</p>
+</header>
+<!-- EDIT: Copy a .member-card article to add a new member -->
+<div class="members-grid" role="list">
+<!-- Member 1 -->
+<article aria-label="Mariyam" class="member-card reveal delay-1" role="listitem">
+<div class="member-card-inner">
+<div class="member-front">
+<div aria-hidden="true" class="member-avatar avatar-mariyam"><img alt="Mariyam avatar" src="assets/mariyam-avatar.png"/></div>
+<div class="member-name">Mariyam</div>
+<div class="member-role">HND in Cyber Security</div>
+<div aria-hidden="true" class="member-flip-hint">↻ Hover to explore</div>
+</div>
+<div class="member-back">
+<div>
+<div class="member-back-name">Mariyam</div>
+<p class="member-back-bio">Focused on cybersecurity and secure digital systems, bringing a security-first mindset to the team’s development work.</p>
+</div>
+<div class="skills-wrap"><span class="skill-tag">Cybersecurity</span><span class="skill-tag">Network Security</span><span class="skill-tag">Web Security</span><span class="skill-tag">Risk Awareness</span></div>
+
+</div>
+</div>
+</article>
+<!-- Member 2 -->
+<article aria-label="Hamdha" class="member-card reveal delay-2" role="listitem">
+<div class="member-card-inner">
+<div class="member-front">
+<div aria-hidden="true" class="member-avatar avatar-hamdha"><img alt="Hamdha avatar" src="assets/hamdha-avatar.png"/></div>
+<div class="member-name">Hamdha</div>
+<div class="member-role">HND in Software Engineering</div>
+<div aria-hidden="true" class="member-flip-hint">↻ Hover to explore</div>
+</div>
+<div class="member-back">
+<div>
+<div class="member-back-name">Hamdha</div>
+<p class="member-back-bio">Focused on software engineering, front-end development, and clear user experiences that turn ideas into polished digital products.</p>
+</div>
+<div class="skills-wrap"><span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">JavaScript</span><span class="skill-tag">UI/UX</span><span class="skill-tag">Software Design</span></div>
+
+</div>
+</div>
+</article>
+<!-- Member 3 -->
+<article aria-label="Nadini" class="member-card reveal delay-3" role="listitem">
+<div class="member-card-inner">
+<div class="member-front">
+<div aria-hidden="true" class="member-avatar avatar-nadini"><img alt="Nadini avatar" src="assets/nadini-avatar.png"/></div>
+<div class="member-name">Nadini</div>
+<div class="member-role">HND in Cyber Security</div>
+<div aria-hidden="true" class="member-flip-hint">↻ Hover to explore</div>
+</div>
+<div class="member-back">
+<div>
+<div class="member-back-name">Nadini</div>
+<p class="member-back-bio">Focused on cybersecurity, system protection, and practical technology solutions with an emphasis on reliability and secure development.</p>
+</div>
+<div class="skills-wrap"><span class="skill-tag">Cybersecurity</span><span class="skill-tag">Cloud Security</span><span class="skill-tag">System Security</span><span class="skill-tag">Testing</span></div>
+
+</div>
+</div>
+</article>
+<!-- Member 4 -->
+
+</div>
+</div>
+</section>
+<!-- PROJECTS SECTION -->
+<section aria-label="Services" id="services">
+<div class="container">
+<header class="section-header reveal">
+<span class="section-label">What We Do</span>
+<h2 class="section-title">What We <span>Provide</span></h2>
+<p class="section-subtitle">Practical technology services for brands, teams, and ideas that need a strong digital foundation.</p>
+</header>
+<!-- EDIT: Copy a .project-card article to add a new project -->
+<div class="projects-grid">
+<!-- Project 1 -->
+<article aria-label="Web Development" class="project-card reveal delay-1">
+<div aria-hidden="true" class="shine"></div>
+<div class="project-img proj-sky">
+<div aria-hidden="true" class="project-img-pattern"></div>
+<span aria-hidden="true" class="project-img-icon">&lt;/&gt;</span>
+</div>
+<div class="project-body">
+<h3 class="project-name">Web Development</h3>
+<p class="project-desc">Modern, responsive websites and web experiences built for speed, usability, and a clean professional presence.</p>
+<div class="project-tags"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span><span class="tech-tag">Responsive Web</span></div>
+
+</div>
+</article>
+<!-- Project 2 -->
+<article aria-label="Software &amp; App Development" class="project-card reveal delay-2">
+<div aria-hidden="true" class="shine"></div>
+<div class="project-img proj-lav">
+<div aria-hidden="true" class="project-img-pattern"></div>
+<span aria-hidden="true" class="project-img-icon">{ }</span>
+</div>
+<div class="project-body">
+<h3 class="project-name">Software &amp; App Development</h3>
+<p class="project-desc">Custom software concepts and application development focused on practical workflows, maintainable code, and smooth user experiences.</p>
+<div class="project-tags"><span class="tech-tag">Software Engineering</span><span class="tech-tag">JavaScript</span><span class="tech-tag">APIs</span><span class="tech-tag">Databases</span></div>
+
+</div>
+</article>
+<!-- Project 3 -->
+<article aria-label="UI/UX &amp; Digital Design" class="project-card reveal delay-3">
+<div aria-hidden="true" class="shine"></div>
+<div class="project-img proj-green">
+<div aria-hidden="true" class="project-img-pattern"></div>
+<span aria-hidden="true" class="project-img-icon">✦</span>
+</div>
+<div class="project-body">
+<h3 class="project-name">UI/UX &amp; Digital Design</h3>
+<p class="project-desc">User-focused interface design, prototypes, and digital experiences that balance visual appeal with clarity and ease of use.</p>
+<div class="project-tags"><span class="tech-tag">UI/UX</span><span class="tech-tag">Prototyping</span><span class="tech-tag">Web Design</span><span class="tech-tag">Interaction Design</span></div>
+
+</div>
+</article>
+<!-- Project 4 -->
+<article aria-label="Cybersecurity &amp; Cloud" class="project-card reveal delay-4">
+<div aria-hidden="true" class="shine"></div>
+<div class="project-img proj-orange">
+<div aria-hidden="true" class="project-img-pattern"></div>
+<span aria-hidden="true" class="project-img-icon">⌁</span>
+</div>
+<div class="project-body">
+<h3 class="project-name">Cybersecurity &amp; Cloud</h3>
+<p class="project-desc">Security-minded development and cloud-ready thinking to help create safer systems, stronger digital practices, and reliable solutions.</p>
+<div class="project-tags"><span class="tech-tag">Cybersecurity</span><span class="tech-tag">Cloud</span><span class="tech-tag">Security Testing</span><span class="tech-tag">Best Practices</span></div>
+
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- CONTACT SECTION -->
+<section aria-label="Contact" id="contact">
+<div class="container">
+<div class="contact-content">
+<div class="reveal">
+<span class="section-label">Get in Touch</span>
+<h2 class="section-title">Let's Build Something <span>Together</span></h2>
+<p class="section-subtitle" style="margin-inline:auto;">For projects, collaborations, or enquiries, reach us directly by email.</p>
+</div>
+<!-- EDIT: Update href and value for each contact card -->
+<div class="contact-cards">
+<a aria-label="Email" class="contact-card reveal delay-1" href="mailto:hello@skysyntax.dev">
+<span aria-hidden="true" class="contact-icon">✉️</span>
+<div class="contact-card-label">Email</div>
+<div class="contact-card-value">skysyntax26@gmail.com</div>
+</a>
+
+
+</div>
+
+</div>
+</div>
+</section>
+</main>
+<!-- FOOTER -->
+<footer role="contentinfo">
+<div class="container footer-inner">
+<a aria-label="Back to top" class="footer-logo" href="#hero"><img alt="" class="footer-logo-mark" src="assets/skysyntax-logo.svg"/> SkySyntax</a>
+
+<p class="footer-copy">© 2026 <span>SkySyntax</span>. Ideas Take Flight in Code.</p>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
